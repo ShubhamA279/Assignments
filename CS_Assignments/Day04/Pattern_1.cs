@@ -1,5 +1,4 @@
-﻿
-/* PATTERN
+﻿/* PATTERN
  * 
  * 1
  * 12

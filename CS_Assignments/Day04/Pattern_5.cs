@@ -1,4 +1,11 @@
-﻿using System;
+﻿/*
+                  *
+                 * *
+                * * *
+               * * * *
+*/
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,13 +17,6 @@ namespace CS_Assignments.Day04
     {
         static void Main(string[] args)
         {
-
-            /*
-                    *
-                   * *
-                  * * *
-                 * * * *
-             */
 
             int i, j,k;
             for (i = 1; i <= 4; i++)
