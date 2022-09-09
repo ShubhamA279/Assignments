@@ -1,4 +1,13 @@
-﻿using System;
+﻿
+/* PATTERN
+ * 
+ * 1
+ * 12
+ * 123
+ * 1234 
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,13 +18,6 @@ namespace CS_Assignments.Day04
     internal class Pattern_1
         
     {
-        /* PATTERN
-         * 
-         * 1
-         * 12
-         * 123
-         * 1234 
-         */
         static void Main(string[] args)    
         {
             int i, j;
