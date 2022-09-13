@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CS_Assignments.Day04.Do_While_4</StartupObject>
+    <StartupObject>CS_Assignments.Day06.Class</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -61,6 +61,9 @@
     <Compile Include="Day04\Pattern_3.cs" />
     <Compile Include="Day04\Pattern_4.cs" />
     <Compile Include="Day04\Pattern_5.cs" />
+    <Compile Include="Day06\class.cs" />
+    <Compile Include="Day06\Employee.cs" />
+    <Compile Include="Day06\Student.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
