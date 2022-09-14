@@ -28,7 +28,8 @@ namespace CS_Assignments.Day06
         public string DisplayValue()
 
         {
-            return $"Roll No is : {roll_no} Name is :{name} City is :{city} Age is : {age} Branch :{branch}";
+           // return $"Roll No is : {roll_no} Name is :{name} City is :{city} Age is : {age} Branch :{branch}";
+            return $"Roll No is : {roll_no} \n Name is :{name} \n City is :{city} \n Age is : {age} \n Branch :{branch}";
 
         }
     }

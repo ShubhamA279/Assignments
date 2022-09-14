@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CS_Assignments.Day06.Class</StartupObject>
+    <StartupObject>CS_Assignments.Day07.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -64,6 +64,8 @@
     <Compile Include="Day06\class.cs" />
     <Compile Include="Day06\Employee.cs" />
     <Compile Include="Day06\Student.cs" />
+    <Compile Include="Day07\Employee.cs" />
+    <Compile Include="Day07\Program.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
