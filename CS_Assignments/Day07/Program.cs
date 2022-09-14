@@ -16,7 +16,7 @@ namespace CS_Assignments.Day07
             s1.GetTotalSalary();
             s1.NetSalary();
 
-            Console.WriteLine(s1.DisplayNetSalary());
+            Console.WriteLine(s1.DisplaySalaryDetails());
 
 
         }

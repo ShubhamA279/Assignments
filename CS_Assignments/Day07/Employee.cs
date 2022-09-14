@@ -29,7 +29,7 @@ namespace CS_Assignments.Day07
             net_salary = total_salary - PF - PT;
         }
 
-        public string DisplayNetSalary()
+        public string DisplaySalaryDetails()
         {
             return $"Employee Name : {emp_name} \n Basic Salary : {basic_salary} \n" +
                 $" HRA : {HRA} \n DA : {DA}\n Total Salary : {total_salary} " +
