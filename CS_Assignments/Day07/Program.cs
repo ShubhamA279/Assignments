@@ -10,13 +10,20 @@ namespace CS_Assignments.Day07
     {
         static void Main(string[] args)
         {
-            Employee s1 = new Employee(50000);
+            Employee e1 = new Employee("vivek", 50000, 200);       
+            e1.GetTotalSalary();
+            e1.NetSalary();
+            Console.WriteLine(e1.DisplaySalaryDetails());
 
-            
-            s1.GetTotalSalary();
-            s1.NetSalary();
 
-            Console.WriteLine(s1.DisplaySalaryDetails());
+            Console.WriteLine();
+
+            Employee e2 = new Employee("test", 30000, 200); 
+            e2.GetTotalSalary();
+            e2.NetSalary();
+            Console.WriteLine(e2.DisplaySalaryDetails());
+
+            Console.WriteLine(Employee.DisplayCount());
 
 
         }

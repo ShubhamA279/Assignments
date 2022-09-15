@@ -8,12 +8,17 @@ namespace CS_Assignments.Day07
 {
     public class Employee
     {
-        int empid = 1, PT = 200;
-        string emp_name = "Vivek";
-        double basic_salary, HRA, DA, PF, total_salary, net_salary;
-        public Employee(double basic_salary)
+        private int empid,PT;
+        private static int count = 0;
+        private string emp_name;
+        private double basic_salary, HRA, DA, PF, total_salary, net_salary;
+        public Employee(string empname,double basic_salary,int PT)
         {
+            count++;
+            empid = count;
+            this.emp_name = empname;
             this.basic_salary = basic_salary;
+            this.PT = PT;
         }
         public void GetTotalSalary()
         {
@@ -21,6 +26,11 @@ namespace CS_Assignments.Day07
             DA = basic_salary * 20 / 100;
 
             total_salary = (basic_salary + (HRA + DA));
+        }
+
+        public static int DisplayCount()
+        {
+            return count;
         }
 
         public void NetSalary()
