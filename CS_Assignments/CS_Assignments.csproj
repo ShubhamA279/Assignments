@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CS_Assignments.Day10.Array</StartupObject>
+    <StartupObject>CS_Assignments.Day12.SumOfSubArray</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -71,6 +71,16 @@
     <Compile Include="Day09\Class1.cs" />
     <Compile Include="Day09\Shape.cs" />
     <Compile Include="Day10\Array.cs" />
+    <Compile Include="Day12\Course.cs" />
+    <Compile Include="Day12\Department.cs" />
+    <Compile Include="Day12\DivideArrayTwoParts.cs" />
+    <Compile Include="Day12\DuplicateNumber.cs" />
+    <Compile Include="Day12\main.cs" />
+    <Compile Include="Day12\MaximumNoEachRow.cs" />
+    <Compile Include="Day12\MaxMin_Number.cs" />
+    <Compile Include="Day12\MinimumArrayElement.cs" />
+    <Compile Include="Day12\RemoveElement.cs" />
+    <Compile Include="Day12\SumOfSubArray.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
