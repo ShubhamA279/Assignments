@@ -11,38 +11,56 @@ namespace CS_Assignments.Day12
     {
         static void Main(string[] args)
         {
-            int size, loc, i;
 
-            Console.WriteLine("enter array size");
-            size = Convert.ToInt32(Console.ReadLine());
+            int[] arr = new int[] { 23, 12, 46, 20, 21 };
+            int n = Convert.ToInt32(Console.ReadLine());
 
-            int[] ar1 = new int[size];
-            Console.WriteLine("enter array element");
-
-            for (i = 0; i < size; i++)
+            for (int i = 0; i < arr.Length; i++)
             {
-                ar1[i] = Convert.ToInt32(Console.ReadLine());
+                if (arr[i] == n)
+                {
+                    arr[i] = 0;
+                    break;
+                }
             }
-            Console.WriteLine("-----------------");
-            Console.WriteLine("array elements are");
-            for (i = 0; i < size; i++)
+            foreach (var item in arr)
             {
-                Console.WriteLine(ar1[i]);
+                Console.WriteLine(item);
             }
 
-            Console.WriteLine("enter array location to delete element");
-            loc = Convert.ToInt32(Console.ReadLine());
-            for (i = loc; i < size - 1; i++)
-            {
-                ar1[i] = ar1[i + 1];
-            }
-            size--;
+            //int size, loc, i;
 
-            Console.WriteLine("array after deletion");
-            for (i = 0; i < size; i++)
-            {
-                Console.WriteLine(ar1[i] + " ");
-            }
+            //Console.WriteLine("enter array size");
+            //size = Convert.ToInt32(Console.ReadLine());
+
+            //int[] ar1 = new int[size];
+            //Console.WriteLine("enter array element");
+
+            //for (i = 0; i < size; i++)
+            //{
+            //    ar1[i] = Convert.ToInt32(Console.ReadLine());
+            //}
+            //Console.WriteLine("-----------------");
+            //Console.WriteLine("array elements are");
+            //for (i = 0; i < size; i++)
+            //{
+            //    Console.WriteLine(ar1[i]);
+            //}
+
+            //Console.WriteLine("enter array location to delete element");
+            //loc = Convert.ToInt32(Console.ReadLine());
+            //for (i = loc; i < size - 1; i++)
+            //{
+            //    ar1[i] = ar1[i + 1];
+            //}
+            //size--;
+
+            //Console.WriteLine("array after deletion");
+            //for (i = 0; i < size; i++)
+            //{
+            //    Console.WriteLine(ar1[i] + " ");
+            //}
+
 
         }
     }

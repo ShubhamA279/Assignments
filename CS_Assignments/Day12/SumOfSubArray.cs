@@ -11,60 +11,55 @@ namespace CS_Assignments.Day12
     public class SumOfSubArray
     {
 
-        public static void Subarray(int[] ar1, int num, int sum)
-        {
-            int currentsum, i, j, k;
-
-            for (i = 0; i < num; i++)
-            {
-                currentsum = ar1[i];
-
-                
-                for (j = i + 1; j <= num; j++)
-                {
-                    if (currentsum == sum)
-                    {
-                    Console.WriteLine($" Sum found between indexes   : {i}   and   {j - 1}");
-                    
-                    Console.Write(" Printing the required subarray : ");
-                    for (k = i; k <= j - 1; k++)
-                      {
-                            
-                            Console.Write(ar1[k] +" ");
-                      }
-                        Console.WriteLine();
-
-                    }
-                    if (currentsum > sum || j == num)
-                        break;
-                    currentsum = currentsum + ar1[j];
-                }
-            }
-            Console.WriteLine("No subarray found");
-        }
-
         static void Main(string[] args)
         {
-            int i, sum, num;
-            //int[] ar1 = new int[num];
-            Console.WriteLine("enter number of elements");
-            num = Convert.ToInt32(Console.ReadLine());
-            int[] ar1 = new int[num];
+            int size;
+            Console.WriteLine("enter size of array");
+            size = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("enter array ");
-            for (i = 0; i < num; i++)
+            int[] arr1 = new int[size];
+            Console.WriteLine("enter element of array");
+
+            for (int i = 0; i < arr1.Length; i++)
             {
-                ar1[i] = Convert.ToInt32(Console.ReadLine());
-            }
-            for (i = 0; i < num; i++)
-            {
-                Console.WriteLine(ar1[i]);
+                arr1[i] = Convert.ToInt32(Console.ReadLine());
             }
 
-            Console.WriteLine("enter sum value");
-            sum = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("enter reqired sum");
 
-            Subarray(ar1, num, sum);
+            int reqsum = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("array created is :");
+            foreach (int i in arr1)
+            {
+                Console.WriteLine(i);
+            }
+
+            Console.WriteLine("subarray whose sum is:" + reqsum);
+
+            for (int i = 0; i < arr1.Length; i++) //5
+            {
+                int sum = 0;
+                for (int j = i; j < arr1.Length; j++)
+                {
+                    sum = sum + arr1[j];
+                    if (reqsum == sum)
+                    {
+                        for (int k = i; k <= j; k++)
+                        {
+                            Console.Write($"{arr1[k]} ");
+
+
+                        }
+                        Console.WriteLine();
+                        //Console.WriteLine($"{arr1 },{i},{j+1}");
+                        // perfect
+                        //Console.Write($" indexes where sum found is :{i},{j}");
+
+                    }
+
+                }
+            }
 
         }
     }

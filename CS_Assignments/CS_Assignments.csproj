@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CS_Assignments.Day12.SumOfSubArray</StartupObject>
+    <StartupObject>CS_Assignments.Day12.DivideArrayTwoParts</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -72,6 +72,7 @@
     <Compile Include="Day09\Shape.cs" />
     <Compile Include="Day10\Array.cs" />
     <Compile Include="Day12\Course.cs" />
+    <Compile Include="Day12\demo.cs" />
     <Compile Include="Day12\Department.cs" />
     <Compile Include="Day12\DivideArrayTwoParts.cs" />
     <Compile Include="Day12\DuplicateNumber.cs" />

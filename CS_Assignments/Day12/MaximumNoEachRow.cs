@@ -38,7 +38,7 @@ namespace CS_Assignments.Day12
             for (i = 0; i < 3; i++)
             {
 
-                max[i] = ar1[0,0];
+                max[i] = ar1[i,0];
 
                 for (j = 0; j < 4; j++)
                 {
