@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CS_Assignments.Day12.DivideArrayTwoParts</StartupObject>
+    <StartupObject>CS_Assignments.Day15.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -82,6 +82,10 @@
     <Compile Include="Day12\MinimumArrayElement.cs" />
     <Compile Include="Day12\RemoveElement.cs" />
     <Compile Include="Day12\SumOfSubArray.cs" />
+    <Compile Include="Day15\CourseAL.cs" />
+    <Compile Include="Day15\EmployeeAL.cs" />
+    <Compile Include="Day15\EmployeeArray.cs" />
+    <Compile Include="Day15\Program.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
