@@ -86,6 +86,10 @@
     <Compile Include="Day15\EmployeeAL.cs" />
     <Compile Include="Day15\EmployeeArray.cs" />
     <Compile Include="Day15\Program.cs" />
+    <Compile Include="Day16\Dictionary.cs" />
+    <Compile Include="Day16\List.cs" />
+    <Compile Include="Day16\Queue.cs" />
+    <Compile Include="Day16\Stack.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
