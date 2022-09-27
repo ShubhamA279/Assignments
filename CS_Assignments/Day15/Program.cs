@@ -108,7 +108,7 @@ namespace CS_Assignments.Day15
 
             foreach (Department d in departments)
             {
-                Console.WriteLine($"{d.Id} {d.Name} ");
+                Console.WriteLine($"{d.Id} {d.Name} "); 
                 foreach (Employee e in d.Employees)
                 {
                     Console.WriteLine($"\t {e.Empid} -> {e.Name}");
