@@ -13,8 +13,8 @@ namespace CS_Assignments.Day15
         public int Id { get; set; }
         public string Name { get; set; }
 
-         public Employee[] Employees { get; set; }
-       // public ArrayList Employee { get; set; }
+        public Employee[] Employees { get; set; }
+        // public ArrayList Employee { get; set; }
 
 
     }
